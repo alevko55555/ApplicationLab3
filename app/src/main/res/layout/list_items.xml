@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50px"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:drawable/btn_star" />
+    <TextView
+        android:id="@+id/view_cars"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:onClick="openMe"
+        android:background="#22AA"
+        />
+</LinearLayout>
